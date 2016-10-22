@@ -14,6 +14,7 @@
 		AB650DE21DBB9CE10063F0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB650DE01DBB9CE10063F0A7 /* LaunchScreen.storyboard */; };
 		AB650DED1DBB9CE10063F0A7 /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB650DEC1DBB9CE10063F0A7 /* WeatherAppTests.swift */; };
 		AB650DF81DBB9CE10063F0A7 /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB650DF71DBB9CE10063F0A7 /* WeatherAppUITests.swift */; };
+		AB650E081DBB9DA20063F0A7 /* weather.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB650E071DBB9DA20063F0A7 /* weather.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AB650DF31DBB9CE10063F0A7 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB650DF71DBB9CE10063F0A7 /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		AB650DF91DBB9CE10063F0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB650E071DBB9DA20063F0A7 /* weather.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = weather.jpeg; path = ../../../../../Downloads/weather.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				AB650DD71DBB9CE10063F0A7 /* AppDelegate.swift */,
 				AB650DD91DBB9CE10063F0A7 /* ViewController.swift */,
 				AB650DDB1DBB9CE10063F0A7 /* Main.storyboard */,
+				AB650E071DBB9DA20063F0A7 /* weather.jpeg */,
 				AB650DDE1DBB9CE10063F0A7 /* Assets.xcassets */,
 				AB650DE01DBB9CE10063F0A7 /* LaunchScreen.storyboard */,
 				AB650DE31DBB9CE10063F0A7 /* Info.plist */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB650E081DBB9DA20063F0A7 /* weather.jpeg in Resources */,
 				AB650DE21DBB9CE10063F0A7 /* LaunchScreen.storyboard in Resources */,
 				AB650DDF1DBB9CE10063F0A7 /* Assets.xcassets in Resources */,
 				AB650DDD1DBB9CE10063F0A7 /* Main.storyboard in Resources */,
