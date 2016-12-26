@@ -34,13 +34,13 @@ class ViewController: UIViewController {
             
             var message = ""
             if error != nil {
-                print(error)
+                print(error!)
             }
                 
             else {
                 if let unwrappedData = data {
                     let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
-                    print(dataString)
+                    print(dataString!)
                     var stringIdentifier = "3 Day Weather Forecast Summary:</b><span class=\"read-more-small\"><span class=\"read-more-content\"> <span class=\"phrase\">"
                     if let contentArray = dataString?.components(separatedBy: stringIdentifier) {
                         if contentArray.count > 1 {
